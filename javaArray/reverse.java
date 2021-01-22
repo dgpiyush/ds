@@ -1,5 +1,4 @@
-
-// import jva.util.Scanner;
+package ArrayClass;
 import java.util.Scanner;
 
 /**
