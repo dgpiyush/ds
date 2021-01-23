@@ -1,10 +1,6 @@
 package ArrayClass;
 import java.util.Scanner;
 
-/**
- * count
- */
-
 
 class reverse {
     static void rvereseArray(int arr[], int start, int end) {
@@ -39,20 +35,16 @@ class reverse {
         int arr[] = new int[n];
         for (int i = 0; i < n; i++) {
 
-            System.out.printf("Enter %dth Element", i);
+            System.out.printf("Enter %d th Element\t", i);
             arr[i] = inputObj.nextInt();
         }
-        // System.out.println(arr.length);
-        // System.out.println(arr[arr.length - 1]);
- 
-
-        String hel = new String();
-        hel = "piyush has find this";
+    
 
         // arr[] = {1, 2, 3, 4, 5, 6};
+        System.out.println("\nYour Array is");
         printArray(arr, n);
         rvereseArray(arr, 0, n - 1);
-        System.out.printf("\n Reversed array is  %S\n", hel);
+        System.out.println("\nReversed array is");
         printArray(arr, n);
 
     }
